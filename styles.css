@@ -428,6 +428,24 @@ figcaption {
   box-shadow: var(--shadow);
 }
 
+.form-intro {
+  display: grid;
+  gap: 8px;
+}
+
+.form-intro strong {
+  color: var(--bamboo-dark);
+  font-size: 1.25rem;
+}
+
+.form-intro p {
+  margin-bottom: 0;
+}
+
+.form-link {
+  width: 100%;
+}
+
 label {
   display: grid;
   gap: 7px;
